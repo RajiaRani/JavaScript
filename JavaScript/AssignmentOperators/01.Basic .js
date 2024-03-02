@@ -1,3 +1,11 @@
+let a = 10;
+console.log(a); // Output: 10
+
+const x = 3.14;
+console.log(x);
+
+
+
 //Example 1
 let age = 29;
  age = age + 3;
