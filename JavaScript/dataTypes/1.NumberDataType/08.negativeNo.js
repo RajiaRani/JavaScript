@@ -1,0 +1,11 @@
+let x = -10;
+let y = 59;
+let sum = x + y;
+let sub = x - y;
+let div = x / y;
+let mod = x % y;
+let mul = x * y;
+console.log('sum is ', sum);
+console.log('Divide ', div);
+console.log('Substruct ', sub);
+console.log('multi', mul);
