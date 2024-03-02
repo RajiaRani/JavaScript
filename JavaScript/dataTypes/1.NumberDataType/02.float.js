@@ -31,3 +31,6 @@ console.log('Diameter is = ', diameter);
 //formula for the circumference is  C = 2*pi*r  OR C=pi*diameter
 let circumference = pii * diameter;
 console.log('The circumference is = ', circumference);
+//find the area
+let area = pii * (radius) ** 2;
+console.log('circleArea  = ', area);
