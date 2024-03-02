@@ -15,3 +15,8 @@ let age = 30;
 let bio = `My name is ${name} and I am ${age} years old.`;
 console.log(bio);
 
+//Example 4 
+// we can also show number inside string
+let num = "9087645327367";
+console.log(num);
+
