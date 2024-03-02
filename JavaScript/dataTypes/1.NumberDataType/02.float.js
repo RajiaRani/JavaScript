@@ -1,16 +1,27 @@
 // An example of a floating-point number
 
-//Exapmle 1
+//Example
+let x = 0.999999;
+let x2 = 0.9999999999999;
+let x3 = 0.9999999999999999999999999;
+console.log('x = ', x);
+console.log('x2 = ',x2);
+console.log('x3 = ', x3); // print 1
+
+
+//Example 1
 let floatingPointNumber = 3.14; 
 let circle = 2*floatingPointNumber;
 console.log(`Floating Number =` + circle);
 
-//Exapmle 2
+
+//Example 2
 let num = 99.9;
 let num2 = 89.5;
 let num3 =20.8;
 let sum = num + num2 + num3;
 console.log('sum is = ', sum);
+
 
 //Example 3
 //find the distance
