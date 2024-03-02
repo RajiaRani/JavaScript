@@ -10,4 +10,6 @@ let multi = number1*number2;
 console.log(`Sum = ` + sum);
 console.log(`Multiplication = ` + multi);
 console.log(`Division = ` + div);
+//Note you can also use the function or method dirctly in the console
+console.log(`Modulo is = ` + number1%number2);
 
