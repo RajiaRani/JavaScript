@@ -22,5 +22,39 @@ let divideByTwo = (x+y)/2;
 console.log(divideByTwo);
 
 //Example 3
+let num = 123;
+console.log(num.toString()); // "123"
 
+// Fixed-point notation (string representation)
+console.log(num.toFixed(2)); // "123.00"
+
+
+// Exponential notation (string representation)
+console.log(num.toExponential()); // "1.23e+2"
+
+// Precision (string representation, in either fixed or exponential form, depending on the number)
+console.log(num.toPrecision(3)); // "123"
+
+// Parsing a string to float
+let floatString = "3.14";
+console.log(parseFloat(floatString)); // 3.14
+
+// Parsing a string to integer
+let intString = "100";
+console.log(parseInt(intString)); // 100
+
+// Checking if a value is finite
+console.log(isFinite(num)); // true
+
+// Checking if a value is NaN
+console.log(isNaN(num)); // false
+
+// Maximum value in a list of numbers
+console.log(Math.max(1, 2, 3, num)); // 123
+
+// Minimum value in a list of numbers
+console.log(Math.min(1, 2, 3, num)); // 1
+
+// Square root
+console.log(Math.sqrt(144)); // 12
 
