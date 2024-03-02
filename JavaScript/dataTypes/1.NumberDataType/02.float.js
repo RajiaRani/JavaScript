@@ -34,3 +34,4 @@ console.log('The circumference is = ', circumference);
 //find the area
 let area = pii * (radius) ** 2;
 console.log('circleArea  = ', area);
+
