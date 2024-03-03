@@ -29,4 +29,13 @@ if ( marks >= 95 && grade === "O"){
 } else{
     console.log("You just PASS with 'C' grade.")
 }
- 
+
+
+//Example 4
+let day = "monday";
+let time = 8; //night time
+if( day === "sunday" && time === 8){
+    console.log("Today is holiday we will arrange the party in the night.");
+} else{
+    console.log("Sorry, today is working day ...We are not free for the party.")
+}
