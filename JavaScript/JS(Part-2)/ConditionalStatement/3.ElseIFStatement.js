@@ -19,3 +19,25 @@ if( score>=90 ){
     console.log("Grade F");
 }
 //Output is Grade C
+
+//Example 3
+let day = "monday";
+if (day=='monday'){
+    console.log("Today is Monday!!");
+} else if(day=="tuesday"){
+    console.log("today is Tuesday");
+} else if(day=="friday"){
+    console.log("today is Friday");
+} else if(day=="saturday"){
+    console.log("today is Saturday");
+} else if(day=="sunday"){
+    console.log("Wow!! Today is Sunday");
+}
+
+//Example 4
+let month = "january";
+if(month === "january"){
+    console.log("winter is here!!");
+} else if( month === "april") {
+    console.log("summer is here!");
+}
