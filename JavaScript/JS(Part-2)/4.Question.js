@@ -2,11 +2,11 @@
 
 let color = "yellow";
 if(color === "red"){
-    console.log("Please stop!!");
+    console.log("Please stop!! light color is red");
 }
 if(color ===  "green"){
-    console.log("Now , you can go");
+    console.log("Go!! light color is green");
 }
 if(color === "yellow"){
-    console.log("Please wait");
+    console.log("Go Slow!! light color is yellow");
 }
