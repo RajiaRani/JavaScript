@@ -12,6 +12,7 @@ if (a > 0 && b > 0) {
     console.log("At least one of a or b is not greater than 0");
 }
 
+
 //Example 2
 let age = 20;
 let gender = "male";
@@ -20,6 +21,7 @@ if( age >18 && gender === "female"){
 } else{
     console.log("Sorry, you cant entered.This is only for women whos age is above 18. ")
 }
+
 
 //Example 3
 let marks = 67;
@@ -38,4 +40,14 @@ if( day === "sunday" && time === 8){
     console.log("Today is holiday we will arrange the party in the night.");
 } else{
     console.log("Sorry, today is working day ...We are not free for the party.")
+}
+
+
+//Example 5
+let attedence = 75;
+if(attedence >= 50 && attedence >= 60){
+    console.log("You are eligible for the exam.");
+    console.log("You got the extra 5 marks.");
+} else{
+    console.log("You are not eligible for the exam because your attendence is short.");
 }
