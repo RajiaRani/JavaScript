@@ -12,6 +12,12 @@ let Age = 23;
 if(Age >= 18){
     console.log("You can vote");
     console.log("You can drive");
+    let a = 3;
+    console.log(a*5);
+}
+if(Age < 18){
+    console.log("you cant vote");
+    console.log("you cant drive");
 }
 console.log("after if statement");
 
