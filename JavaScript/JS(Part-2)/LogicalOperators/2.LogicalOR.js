@@ -34,3 +34,13 @@ if ( marks >= 90 || garde === 'A'){
     console.log("You just PASS");
 }
 
+
+
+//Example 4
+let day = "sunday";
+let time = 8;
+if( day === "monday" || time === 8){
+    console.log("Lets do party");
+} else{
+    console.log("Today is working day");
+}

@@ -44,8 +44,8 @@ if( day === "sunday" && time === 8){
 
 
 //Example 5
-let attedence = 75;
-if(attedence >= 50 && attedence >= 60){
+let attedence = 65;
+if(attedence >= 75 && attedence <= 95){
     console.log("You are eligible for the exam.");
     console.log("You got the extra 5 marks.");
 } else{
