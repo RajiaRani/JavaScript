@@ -37,3 +37,10 @@ console.log( students>=78 );
 
 // 7. Less than (<)
 // Checks if the value on the left is less than the value on the right.
+let count = 77;
+console.log(count<77);
+
+// 8. Less than or equal to (<=)
+// Checks if the value on the left is less than or equal to the value on the right.
+let count1 = 56;
+console.log(count1<=56);
