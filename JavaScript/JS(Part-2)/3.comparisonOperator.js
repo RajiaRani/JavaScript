@@ -1,10 +1,16 @@
 //Comparison operators in JavaScript are used to compare two values and return a boolean value, either true or false,
 // based on whether the comparison is true. 
 
+
 // 1. Equal (==)
 // Compares two values for equality after converting both values to a common type (type coercion).
 let age = 18 ;
 console.log(age == 18); 
+
+//Example 2
+let x = 45;
+let y = 45;
+console.log( "Is x equal to y :", x == y);
 
 
 // 2. Not equal (!=)
@@ -35,10 +41,12 @@ console.log(student > 56);
 let students = 78;
 console.log( students>=78 );
 
+
 // 7. Less than (<)
 // Checks if the value on the left is less than the value on the right.
 let count = 77;
 console.log(count<77);
+
 
 // 8. Less than or equal to (<=)
 // Checks if the value on the left is less than or equal to the value on the right.
