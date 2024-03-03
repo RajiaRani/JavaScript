@@ -98,3 +98,23 @@ if (score >= 50) {
 else {
     console.log("F");
 }
+
+
+//Example 6
+let Weather = "sunny";
+let temperature = 25; // Celsius
+
+if (Weather === "sunny") {
+    if (temperature > 30) {
+        console.log("It's really hot outside, let's go swimming!");
+    } else if (temperature > 20) {
+        console.log("Perfect weather for a picnic!");
+    } else {
+        console.log("It's sunny but chilly, maybe a brisk walk?");
+    }
+} else if (Weather === "rainy") {
+    console.log("Let's stay in and watch a movie.");
+} else {
+    console.log("Let's see what the day brings.");
+}
+
