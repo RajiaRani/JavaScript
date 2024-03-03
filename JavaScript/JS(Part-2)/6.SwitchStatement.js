@@ -1,3 +1,4 @@
+// Switch Statement: Used when we have some fixed values that we need to compare to.
 
 // Example : 1
 let day = new Date().getDay();
