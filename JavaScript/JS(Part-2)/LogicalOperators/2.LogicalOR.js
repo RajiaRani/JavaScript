@@ -44,3 +44,12 @@ if( day === "monday" || time === 8){
 } else{
     console.log("Today is working day");
 }
+
+
+// Example 5
+let num = 12;
+if((num%3 == 0) && ( (num+1 == 15) || ( num -1 == 11))){
+    console.log("safe");
+} else {
+    console.log("unsafe");
+}
