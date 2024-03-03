@@ -22,6 +22,8 @@ if(Age < 18){
 console.log("after if statement");
 
 
+
+
 //Example 1
 let score = 75;
 if(score > 70){
@@ -46,3 +48,9 @@ if(weight > 70){
     console.log("Manitaine your weight");
 }
 
+
+//Example 5
+let firstName = "rajia";
+if(firstName == "rajia"){
+    console.log(`Welcome ${firstName}`);
+}
