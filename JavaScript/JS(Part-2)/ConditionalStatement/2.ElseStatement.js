@@ -7,13 +7,15 @@ if(age >= 18){
 }
 
 //Example 2
-let color = "green";
+let color = "blue";
 if(color === "red"){
     console.log("Stop, light is red");
 } else if(color === "yellow"){
     console.log("Go Slow, light is yellow");
-} else{
+} else if(color === "green"){
     console.log("Go, light is Green");
+}else{
+    console.log("Traffic light is broken");
 }
 
 //Example 3
