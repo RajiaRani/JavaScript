@@ -3,3 +3,4 @@
 
 let str = "         hiii , everyone           ";
 console.log("After trim : ", str.trim());
+
