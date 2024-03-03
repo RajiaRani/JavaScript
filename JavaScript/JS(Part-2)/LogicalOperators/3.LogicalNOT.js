@@ -20,6 +20,7 @@ if(!isPresent){
     console.log("Present");
 }
 
+
 // Example 3
 let marks = 75 ;
 let pass = true;
