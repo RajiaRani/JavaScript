@@ -26,9 +26,15 @@ let city = ['jalandhar', 'goa', 'delhi'];
 let newCity = city.splice(0,0,'hyderbad', 'mumbai', 'patna');
 console.log(city);
 
+
 // Example 5
 let marks = [90.8, 78, 56.6, 77, 89];
-let addMarks = marks.splice(0,0,78.9, 67.8, 56,2);
+let addMarks = marks.splice(1,0,78.9, 67.8, 56,2);
 console.log(marks);
 
+
+// Example 6
+let subjects = ['hindi', 'english', 'math', 'computer'];
+subjects.splice(1, 1, 'Chemistry'); // replace english with chemistry
+console.log(subjects);
 
