@@ -1,3 +1,5 @@
+// Slice = returns copies of the original array.
+
 let colors = [ 'red', 'green', 'orange', 'blue', 'pink', 'black', 'yellow'];
 let newColors = colors.slice(3);
 console.log(newColors);
