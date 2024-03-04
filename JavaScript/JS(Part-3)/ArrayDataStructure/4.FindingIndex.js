@@ -13,3 +13,8 @@ console.log(name.indexOf('shiva'));
 let arr = ["Hello", "India", 67, 908.88, "Happy"];
 console.log(arr.slice(0,1));
 console.log(arr[0][0]);
+
+// Example 4
+let color = ["red", "yellow", "blue"];
+console.log(color.indexOf("blue"));
+console.log(color.indexOf("black")); 
